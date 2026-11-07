@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#faf8f2">
+  <meta name="description" content="Invitación a la boda de Britney y Ángel — 14 de diciembre de 2026">
+  <title>Nuestra boda | Britney & Ángel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--vino:#76213a;--vino2:#a64b67;--olivo:#54663a;--rosa:#dc8899;--crema:#faf8f2;--texto:#504744}
+    *{box-sizing:border-box}html{min-height:100%;background:var(--crema)}body{margin:0;color:var(--texto);font-family:'Cormorant Garamond',Georgia,serif;background:radial-gradient(ellipse at 25% 10%,#fff 2%,transparent 55%),linear-gradient(155deg,#f5f5ed,#fffdfb 55%,#f1f2e8);min-height:100svh;overflow-x:hidden}
+    .paper{position:fixed;inset:0;pointer-events:none;opacity:.4;background-image:radial-gradient(#9fa68b 0.55px,transparent .55px);background-size:13px 13px;z-index:0}
+    .shell{position:relative;z-index:1;max-width:480px;min-height:100svh;margin:auto;padding:22px 21px 34px;display:flex;align-items:center;justify-content:center}
+    .invite{position:relative;width:100%;min-height:680px;border:1px solid #d6d7c5;border-radius:190px 190px 22px 22px / 88px 88px 22px 22px;background:rgba(255,255,254,.88);box-shadow:0 15px 50px #69704f20,0 2px 6px #69704f10;overflow:hidden;padding:86px 29px 28px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
+    .invite:before{content:"";position:absolute;inset:9px;border:2px solid #6b7c4d88;border-radius:180px 180px 17px 17px / 80px 80px 17px 17px;pointer-events:none;z-index:2}
+    .floral{position:absolute;pointer-events:none;width:174px;z-index:3;opacity:.98}.floral.tl{top:-12px;left:-42px;transform:rotate(-9deg)}.floral.tr{top:-12px;right:-42px;transform:scaleX(-1) rotate(-9deg)}.floral.bl{bottom:15px;left:-60px;transform:rotate(170deg)}.floral.br{bottom:15px;right:-60px;transform:scaleX(-1) rotate(170deg)}
+    .content{position:relative;z-index:4;width:100%;transition:opacity .3s,transform .3s}.enter{animation:appear .65s cubic-bezier(.2,.7,.2,1) both}@keyframes appear{from{opacity:0;transform:translateY(17px)}to{opacity:1;transform:translateY(0)}}
+    .kicker{font:600 10px/1.7 Montserrat,Arial,sans-serif;letter-spacing:.23em;text-transform:uppercase;color:var(--olivo);margin:0 0 15px}.script{font-family:'Great Vibes','Brush Script MT',cursive;font-size:clamp(66px,18vw,92px);line-height:.95;color:var(--vino);font-weight:400;margin:16px 0 12px}.amp{font-size:.69em;color:var(--olivo);display:block;margin:5px 0}
+    h1,h2,p{margin-top:0}h2{font-size:35px;font-weight:500;color:var(--vino);line-height:1.05;margin:12px 0 20px}.copy{font-size:22px;line-height:1.3;margin:15px auto;max-width:320px}.small{font-size:18px;line-height:1.3}.verse{font-size:23px;font-style:italic;line-height:1.35;margin:15px auto;color:#5f574e}.cite{font:600 11px Montserrat,sans-serif;letter-spacing:.09em;color:var(--olivo)}.ornament{font-size:27px;color:var(--rosa);letter-spacing:.12em;margin:10px 0}.names{font-size:19px;line-height:1.55;margin-bottom:10px}.date{color:var(--vino);font-size:46px;line-height:1.1;margin:10px 0}.weekday{letter-spacing:.13em;text-transform:uppercase;font-size:18px}.place{color:var(--vino);font-size:32px;margin:14px 0 5px}.count{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:19px auto;max-width:290px}.count span{background:#f4f1e8;border:1px solid #e3dfd2;border-radius:9px;padding:9px 4px;font:600 18px Montserrat,sans-serif;color:var(--vino)}.count small{display:block;font:500 9px Montserrat,sans-serif;letter-spacing:.05em;color:#74705f;margin-top:6px}
+    .actions{position:relative;z-index:5;margin-top:20px;display:flex;flex-direction:column;align-items:center;gap:11px;width:100%}button,.action-link{appearance:none;border:0;text-decoration:none;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;text-align:center;min-height:47px;min-width:195px;padding:13px 22px;background:var(--vino);color:white;border-radius:50px;font:600 11px/1.3 Montserrat,Arial,sans-serif;letter-spacing:.08em;box-shadow:0 5px 15px #76213a25;transition:transform .15s,background .15s}button:active,.action-link:active{transform:scale(.97)}button:focus-visible,.action-link:focus-visible{outline:3px solid #d4a8b3;outline-offset:3px}.secondary{color:var(--vino);background:#fff;border:1px solid #bd94a0;box-shadow:none}.secondary:hover{background:#f9f0f3}.muted{background:none;box-shadow:none;color:#686851;min-height:33px;padding:4px 9px;font-size:10px}.progress{display:flex;gap:7px;justify-content:center;align-items:center;margin-top:19px}.dot{height:5px;width:5px;border-radius:50%;background:#d8d9c6}.dot.active{width:18px;border-radius:10px;background:var(--vino)}.note{font:500 10px/1.5 Montserrat,sans-serif;color:#81796f;margin:12px 0 0}.hidden{display:none!important}
+    @media(max-width:380px){.shell{padding:10px}.invite{min-height:640px;padding:72px 21px 22px}.script{font-size:70px}.floral{width:145px}.copy{font-size:20px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+<div class="paper" aria-hidden="true"></div>
+<main class="shell">
+  <article class="invite" aria-label="Invitación a la boda de Britney y Ángel">
+    <!-- Ilustración floral SVG vectorial incrustada: no requiere imágenes adicionales -->
+    <svg class="floral tl" viewBox="0 0 170 270" aria-hidden="true"><path d="M44 270 Q11 183 72 113 Q126 65 71 -8" fill="none" stroke="#52663b" stroke-width="5"/><path d="M38 225 Q84 198 88 167 Q41 173 38 225M53 171 Q12 138 24 102 Q63 133 53 171M72 124 Q116 131 126 94 Q93 85 72 124M78 65 Q38 54 34 25 Q72 29 78 65" fill="#758448"/><g transform="translate(81 85) rotate(-14)"><path d="M0 0C-43 -14 -47 -63 -9 -68C9 -86 44 -58 18 -23C47 -9 28 26 1 14C-12 33 -40 14 -27 -8Z" fill="#8d2547"/><path d="M-7 -59Q22 -49 7 -8Q-22 13 -25 -14" fill="#c94c72"/><path d="M-13 -56 Q2 -28 -2 8" stroke="#f6a3ad" fill="none" stroke-width="2"/><ellipse rx="6" ry="9" fill="#e8a255"/></g><g transform="translate(42 202) scale(.77) rotate(23)"><path d="M0 0C-43 -14 -47 -63 -9 -68C9 -86 44 -58 18 -23C47 -9 28 26 1 14C-12 33 -40 14 -27 -8Z" fill="#8d2547"/><path d="M-7 -59Q22 -49 7 -8Q-22 13 -25 -14" fill="#d75e80"/><ellipse rx="6" ry="9" fill="#e8a255"/></g><circle cx="110" cy="31" r="8" fill="#d57f93"/><circle cx="124" cy="27" r="6" fill="#ed9ca8"/></svg>
+    <svg class="floral tr" viewBox="0 0 170 270" aria-hidden="true"><path d="M44 270 Q11 183 72 113 Q126 65 71 -8" fill="none" stroke="#52663b" stroke-width="5"/><path d="M38 225 Q84 198 88 167 Q41 173 38 225M53 171 Q12 138 24 102 Q63 133 53 171M72 124 Q116 131 126 94 Q93 85 72 124M78 65 Q38 54 34 25 Q72 29 78 65" fill="#758448"/><g transform="translate(81 85) rotate(-14)"><path d="M0 0C-43 -14 -47 -63 -9 -68C9 -86 44 -58 18 -23C47 -9 28 26 1 14C-12 33 -40 14 -27 -8Z" fill="#8d2547"/><path d="M-7 -59Q22 -49 7 -8Q-22 13 -25 -14" fill="#c94c72"/><ellipse rx="6" ry="9" fill="#e8a255"/></g><g transform="translate(42 202) scale(.77) rotate(23)"><path d="M0 0C-43 -14 -47 -63 -9 -68C9 -86 44 -58 18 -23C47 -9 28 26 1 14C-12 33 -40 14 -27 -8Z" fill="#8d2547"/><path d="M-7 -59Q22 -49 7 -8Q-22 13 -25 -14" fill="#d75e80"/><ellipse rx="6" ry="9" fill="#e8a255"/></g></svg>
+    <svg class="floral bl" viewBox="0 0 170 270" aria-hidden="true"><path d="M44 270 Q11 183 72 113 Q126 65 71 -8" fill="none" stroke="#52663b" stroke-width="5"/><path d="M38 225 Q84 198 88 167 Q41 173 38 225M53 171 Q12 138 24 102 Q63 133 53 171M72 124 Q116 131 126 94 Q93 85 72 124" fill="#758448"/><g transform="translate(81 85) rotate(-14)"><path d="M0 0C-43 -14 -47 -63 -9 -68C9 -86 44 -58 18 -23C47 -9 28 26 1 14C-12 33 -40 14 -27 -8Z" fill="#8d2547"/><path d="M-7 -59Q22 -49 7 -8Q-22 13 -25 -14" fill="#c94c72"/><ellipse rx="6" ry="9" fill="#e8a255"/></g><g transform="translate(42 202) scale(.77) rotate(23)"><path d="M0 0C-43 -14 -47 -63 -9 -68C9 -86 44 -58 18 -23C47 -9 28 26 1 14C-12 33 -40 14 -27 -8Z" fill="#8d2547"/><path d="M-7 -59Q22 -49 7 -8Q-22 13 -25 -14" fill="#d75e80"/><ellipse rx="6" ry="9" fill="#e8a255"/></g></svg>
+    <svg class="floral br" viewBox="0 0 170 270" aria-hidden="true"><path d="M44 270 Q11 183 72 113 Q126 65 71 -8" fill="none" stroke="#52663b" stroke-width="5"/><path d="M38 225 Q84 198 88 167 Q41 173 38 225M53 171 Q12 138 24 102 Q63 133 53 171M72 124 Q116 131 126 94 Q93 85 72 124" fill="#758448"/><g transform="translate(81 85) rotate(-14)"><path d="M0 0C-43 -14 -47 -63 -9 -68C9 -86 44 -58 18 -23C47 -9 28 26 1 14C-12 33 -40 14 -27 -8Z" fill="#8d2547"/><path d="M-7 -59Q22 -49 7 -8Q-22 13 -25 -14C-12 33 -40 14 -27 -8Z" fill="#8d2547"/><ellipse rx="6" ry="9" fill="#e8a255"/></g><g transform="translate(42 202) scale(.77) rotate(23)"><path d="M0 0C-43 -14 -47 -63 -9 -68C9 -86 44 -58 18 -23C47 -9 28 26 1 14C-12 33 -40 14 -27 -8Z" fill="#8d2547"/><path d="M-7 -59Q22 -49 7 -8Q-22 13 -25 -14" fill="#d75e80"/><ellipse rx="6" ry="9" fill="#e8a255"/></g></svg>
+    <div id="stage" class="content enter" aria-live="polite"></div>
+    <div class="actions" id="actions"></div>
+    <nav class="progress" id="progress" aria-label="Progreso de la invitación"></nav>
+  </article>
+</main>
+<script>
+/* PERSONALIZA AQUÍ LOS DATOS DEL EVENTO */
+const DATOS={
+ novios:'Britney & Ángel',
+ padre1:'Enin Jerónimo Roblero',madre1:'Lorena González López',
+ padre2:'Agenor Sánchez Pérez',madre2:'Evangelina González de León',
+ fecha:'2026-12-14T11:00:00-06:00',
+ dia:'Lunes 14 de diciembre',hora:'11:00 a. m.',
+ lugar:'Alberca Oasis',direccion:'5ª Norte y 3ª Poniente, Barrio Cedral, Jaltenango, Chiapas',
+ telefono:'529921200786'
+};
+const mapUrl='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(DATOS.lugar+', '+DATOS.direccion);
+const waUrl='https://wa.me/'+DATOS.telefono+'?text='+encodeURIComponent('¡Hola! Confirmo mi asistencia a la boda de Britney y Ángel el 14 de diciembre.');
+const stage=document.getElementById('stage'), actions=document.getElementById('actions'),progress=document.getElementById('progress');let paso=0;
+const views=[
+ `<p class="kicker">Con la bendición de Dios</p><p class="ornament">❧ ✿ ❧</p><p class="small">Nos complace invitarte a celebrar</p><h1 class="script">Britney <span class="amp">&</span> Ángel</h1><p class="copy">Nuestra unión en santo matrimonio</p><p class="ornament">✿</p><p class="small">Una historia de amor escrita de la mano de Dios.</p>`,
+ `<p class="kicker">Con la bendición de nuestros padres</p><h2>Unimos nuestras vidas</h2><p class="names">${DATOS.padre1}<br>${DATOS.madre1}</p><p class="ornament">❧</p><p class="names">${DATOS.padre2}<br>${DATOS.madre2}</p><p class="copy">Y con alegría te invitamos a ser testigo de este momento tan especial.</p>`,
+ `<p class="kicker">El amor es un regalo de Dios</p><p class="ornament">✿ ❧ ✿</p><h2>Una promesa<br>para toda la vida</h2><p class="verse">“Uno solo puede ser vencido, pero dos pueden resistir. La cuerda de tres hilos no se rompe fácilmente.”</p><p class="cite">ECLESIASTÉS 4:12</p><p class="ornament">❧</p>`,
+ `<p class="kicker">Reserva esta fecha</p><h2>El gran día</h2><div class="date">14 <span style="font-size:27px">de diciembre</span></div><p class="weekday">Lunes · 2026</p><p class="copy">A las <b>11:00 a. m.</b></p><div class="count" id="countdown" aria-label="Cuenta regresiva"></div><p class="small">¡Nos encantará compartirlo contigo!</p>`,
+ `<p class="kicker">Te esperamos en</p><h2>Nuestra ceremonia</h2><p class="ornament">✿ ❧ ✿</p><p class="place">Alberca Oasis</p><p class="copy">${DATOS.direccion}</p><p class="small">Lunes 14 de diciembre de 2026<br>11:00 a. m.</p>`,
+ `<p class="kicker">¡Celebremos el amor!</p><h1 class="script" style="font-size:67px">Britney <span class="amp">&</span> Ángel</h1><p class="copy">Tu presencia hará aún más especial este día.</p><p class="ornament">✿ ❧ ✿</p><h2 style="font-size:30px">Confirma tu asistencia</h2><p class="small">992 120 0786</p>`
+];
+function btn(label,fn,cl=''){const b=document.createElement('button');b.textContent=label;b.className=cl;b.addEventListener('click',fn);actions.appendChild(b);return b}
+function link(label,url,cl=''){const a=document.createElement('a');a.className='action-link '+cl;a.textContent=label;a.href=url;a.target='_blank';a.rel='noopener noreferrer';actions.appendChild(a)}
+function render(){stage.classList.remove('enter');stage.innerHTML=views[paso];void stage.offsetWidth;stage.classList.add('enter');actions.innerHTML='';progress.innerHTML='';for(let i=0;i<views.length;i++){const d=document.createElement('span');d.className='dot'+(i===paso?' active':'');progress.appendChild(d)}
+ if(paso<views.length-1)btn(paso===0?'Abrir invitación ♡':paso===3?'Ver ubicación →':'Continuar →',()=>{paso++;render()});
+ if(paso===4)link('Abrir Google Maps',mapUrl,'secondary');
+ if(paso===views.length-1){link('Confirmar por WhatsApp',waUrl);link('Ver ubicación',mapUrl,'secondary');}
+ if(paso>0)btn('← Anterior',()=>{paso--;render()},'muted');
+ if(paso===3)updateCount();
+}
+function updateCount(){const el=document.getElementById('countdown');if(!el)return;let ms=Math.max(0,new Date(DATOS.fecha)-new Date());const days=Math.floor(ms/86400000);ms%=86400000;const hours=Math.floor(ms/3600000);ms%=3600000;const mins=Math.floor(ms/60000);const secs=Math.floor(ms%60000/1000);el.innerHTML=[[days,'DÍAS'],[hours,'HORAS'],[mins,'MIN'],[secs,'SEG']].map(([n,t])=>`<span>${String(n).padStart(2,'0')}<small>${t}</small></span>`).join('')}
+render();setInterval(updateCount,1000);
+</script>
+</body>
+</html>
